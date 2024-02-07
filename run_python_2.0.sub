@@ -1,0 +1,14 @@
+# Unix submit description file
+Universe=vanilla
+Notify_user=vvaniset@syr.edu
+getenv=True
+Initialdir=/home/vvaniset/work_9_freq_prop/trial2
+
+executable              = freq_prop.py 
+log                     = try1.log
+# output                  = try1.txt
+error                   = errors_try1.txt
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+transfer_input_files    = training_data.npy
+queue
